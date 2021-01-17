@@ -1,1 +1,21 @@
-[{"title":"Test Title","text":"Test text"}]
+[
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "save this note",
+    "text": "note ",
+    "id": "d2978cef-3a11-4621-9c86-1bfd7a2757f0"
+  },
+  {
+    "title": "keep this note ",
+    "text": "new one",
+    "id": "a0442a6a-4a32-4c3a-a7bc-69285b732e42"
+  },
+  {
+    "title": "heres a note",
+    "text": "this one too",
+    "id": "9ddab1d8-6c51-4931-a8dd-99d1ed44afca"
+  }
+]
