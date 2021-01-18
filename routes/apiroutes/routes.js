@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const { saveNote, deleteNote } = require('../../lib/notes');
+const { saveNote } = require('../../lib/notes');
 
 const notes = require('../../db/db.json');
 
@@ -28,12 +28,12 @@ router.post('/notes', (req, res) => {
 //with the given id property, and then rewrite the notes to the db.json file.
 
 router.delete("/notes/:id", (req, res) => {
-    //find the id of the note that is going to be deleted
+    //find id assigned
     let deleteNote = notes.findIndex((item) => item.id === req.params.id);
-    //remove the note from the notes array
+    //use .splice() to remove entry from array
     notes.splice(deleteNote, 1);
   
-    //write the updated array to db.json
+    //use fs.writeFileSync to update array after using .splice() method
     fs.writeFileSync("./db/db.json", JSON.stringify(notes, null, 2), function (
       err
     ) {
