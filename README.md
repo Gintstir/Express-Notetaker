@@ -28,11 +28,11 @@ Once the application is open, it is very straightforward to use.  Simply add a N
 ### *Screenshots*
 
 - The application without notes:
-> ![screenshot](public\assets\images\noNotes.png)
+> ![screenshot](public/assets/images/noNotes.png)
 - The application with notes added:
-> ![screenshot](public\assets\images\notesAdded.png)
+> ![screenshot](public/assets/images/notesAdded.png)
 - The application with the first two notes deleted:
-> ![screenshot](public\assets\images\notesDeleted.png)
+> ![screenshot](public/assets/images/notesDeleted.png)
 
 ## **Contributing**
 
